@@ -1,4 +1,4 @@
-export const LOCAL_HOST = "http://localhost:5000";
+export const LOCAL_HOST = "https://e-note-be-production.up.railway.app";
 
 export const GET_NOTE_BY_ID = (id) => `${LOCAL_HOST}/api/notes/${id}`;
 export const GET_ALL_NOTES = `${LOCAL_HOST}/api/notes/`;
