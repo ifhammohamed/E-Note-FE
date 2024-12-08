@@ -38,7 +38,7 @@ export default function Home() {
   const [searchTerm, setSearchTerm] = useState("");
   const [filter, setFilter] = useState("all");
   const [categories, setCategoryFilter] = useState("");
-  const [order, setOrder] = useState("desc");
+  const [order] = useState("desc");
   const [pagination, setPagination] = useState<PaginationInfo>({
     total: 0,
     page: 1,

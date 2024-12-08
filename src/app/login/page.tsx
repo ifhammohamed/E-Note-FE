@@ -1,11 +1,11 @@
 "use client";
 
-import { useState } from "react";
-import { motion, HTMLMotionProps } from "framer-motion";
+import { Button } from "@/components/ui/button";
+import { Input } from "@/components/ui/input";
+import { motion } from "framer-motion";
 import { ArrowRight } from "lucide-react";
 import Link from "next/link";
-import { Input } from "@/components/ui/input";
-import { Button } from "@/components/ui/button";
+import { useState } from "react";
 
 export default function LoginPage() {
   const [email, setEmail] = useState("");
